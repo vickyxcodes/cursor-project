@@ -39,6 +39,8 @@ body{
 
 }
 
+/** nav bar ------------- */
+
 nav div.navbar{
     padding: 15px 30px;
     width: 100%;
@@ -85,6 +87,10 @@ nav button.second{
     font-size: 16px;    
 }
 
+/** main-----------------------------------------*/
+
+/* 1.Hero section :-----------------*/
+
 main div.hero-section{
     padding: 100px 30px;
 }
@@ -125,6 +131,8 @@ main img.inner{
     
 }
 
+/* 2.trusted by :-----------------*/
+
 section div.brands{
     margin-top: -30px ;
 }
@@ -157,4 +165,64 @@ section div.child img{
     object-fit: contain;
 }
 
+/* 3. Features section:-----------------*/
+
+section div.card{
+    margin: 90px 30px;
+    padding: 20px;
+    background-color: #1D1B15;
+    display: flex;
+    gap: 5px;
+}
+
+section div.written-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 415px;
+    height: 680px;
+}
+
+section div.written-part h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #EDECEC;
+}
+
+section div.written-part p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #999896;
+}
+
+section div.written-part a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #f54e00;
+    text-decoration: none;
+}
+
+section div.image-part{
+    position: relative;
+    width: 840px;
+    height: 680px;
+}
+
+section div.image-part img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+    /*!---- feature 2 switch */
+
+section div#feature-2{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+section div#feature-2 div.written-part{
+    padding: 25px;
+}
 
