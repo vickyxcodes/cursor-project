@@ -83,7 +83,7 @@ nav button.first{
 }
 
 nav button.second{
-    border: #45433E 1px solid;
+    border: none;
     background-color: #EDECEC;
     color: #1B1913;
     border-radius: 30px;
@@ -182,18 +182,18 @@ section div.child img{
 /* 3. Features section:-----------------*/
 
 section div.card{
-    margin: 90px 30px;
+    margin: 90px 20px;
     padding: 20px;
     background-color: #1D1B15;
     display: flex;
-    gap: 5px;
+    justify-content: space-between;
 }
 
 section div.written-part{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 415px;
+    width: 295px;
     height: 680px;
 }
 
@@ -210,7 +210,7 @@ section div.written-part p{
 }
 
 section div.written-part a{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: #f54e00;
     text-decoration: none;
@@ -218,8 +218,8 @@ section div.written-part a{
 
 section div.image-part{
     position: relative;
-    width: 840px;
-    height: 680px;
+    width: 664px;
+    height: 650px;
 }
 
 section div.image-part img{
@@ -242,4 +242,326 @@ section div#feature-2 div.written-part{
 
 /* 4.Testimonials-----------------*/
 
+.testimonials-heading2{
+    color: #EDECEC;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
 
+section div.testimonials{
+    padding: 45px 25px;
+    display: grid;
+    grid-template-rows: repeat(2, 240fr);
+    grid-template-columns: repeat(3, 339px);
+    gap: 9px;
+}
+
+section div.block{
+    background-color: #1B1913;
+    padding: 20px 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+section div.block p{
+    color: #EDECEC;
+    font-size: 16px;
+}
+
+div.person{
+    margin-top: 100px;
+    display: flex;
+}
+
+div.person img{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.name{
+    color: #EDECEC;
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.desc{
+    color: #999896;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+/* 4.Stay On the frontier section-----------------*/
+
+.frontier{
+    padding: 100px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.frontier h2{
+    color: #EDECEC;
+    font-size:23px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.frontier-card{
+    background-color: #1B1913;
+    padding: 20px 18px;
+    height: 582px;
+    width: 1036px;
+}
+
+.frontier h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #EDECEC;
+}
+
+.frontier p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #999896;
+    margin-bottom: 15px;
+}
+
+.frontier a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #f54e00;
+    text-decoration: none;
+}
+
+.frontier img{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* 5.Changelog-----------------*/
+
+.changelogs{
+    padding: 30px 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 252px);
+    grid-template-rows: repeat(1,121px);
+    gap: 10px;
+}
+
+.changelog-heading{
+    font-size: 25px;
+    margin: 25px;
+    margin-bottom: -8px;
+}
+
+.logs{
+    background-color:#1B1913;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 18px;
+}
+
+.date{
+    color: #9B9A98;
+    font-size: 17px;
+}
+
+.review{
+    margin-right: 10px;
+    border: #9B9A98 1px solid;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.address{
+    color: #EDECEC;
+    font-size: 16px;
+}
+
+.changelog-link{
+    margin: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f54e00;
+    text-decoration: none;
+}
+
+/* 5.Join us-----------------*/
+
+.join-card{
+    margin: 90px 20px;
+    padding: 20px;
+    width: 1036px;
+    height: 409px;
+    background-color: #1D1B15;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.join-written-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 295px;
+    height: 374px;
+}
+
+.join-written-part h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #EDECEC;
+}
+
+.join-written-part p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #999896;
+}
+
+.join-written-part a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #f54e00;
+    text-decoration: none;
+}
+
+.join-image-part{
+    position: relative;
+    width: 664px;
+    height: 374px;
+    border-radius: 10px;
+}
+
+.join-image-part img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* 6.Recent highlights-----------------*/
+
+.r-section{
+    width: 1078px;
+    height: 686px;
+    background-color: #1B1913;
+    display: flex;
+    padding: 60px 20px;
+    justify-content: space-between;
+}
+
+div.r-heading{
+    width: 30%;
+    height: 100%;
+}
+
+div.r-heading h3{
+    color: #EDECEC;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+div.r-cards{
+    width: 100%;
+    background-color: #201E18;
+    padding: 20px 18px;
+}
+
+div.r-cards-div{
+    display: grid;
+    grid-template-rows: repeat(3, 147px);
+    gap: 10px;
+}
+
+div.r-cards h3{
+    color:#EDECEC;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+div.r-cards p{
+    color: #8E8E8E;
+}
+
+.r-link{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f54e00;
+    text-decoration: none;
+}
+
+/* 7.Footer-----------------*/
+
+div.full{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background-color: #1B1913;
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 465px
+}
+
+div.list{
+    padding: 0px;
+    width: 86%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 2;
+}
+
+p.list-name {
+    margin-left: 11px;
+    color: #999896;
+}
+
+p.name {
+    color: #EDECEC;
+}
+
+div.last{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rights-line{
+    font-size: 15px;
+    color: #999896;
+}
+
+div.footer-buttons{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.theme{
+    color: #999896;
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 20px;
+    background-color: #26241E;
+}
+
+.lang{
+    font-size: 15px;
+    padding: 2px 10px;
+    border-radius: 20px;
+    background-color: #26241E;
+}
