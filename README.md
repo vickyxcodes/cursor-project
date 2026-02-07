@@ -25,3 +25,9 @@
 - Secondary text: #999896  
 - Borders: #45433E  
 - Accent color: #F54E00  
+
+
+## Screenshots
+
+### Hero Section, Trusted By Section, Features Section
+![Hero Section](screenshots/1.png)
