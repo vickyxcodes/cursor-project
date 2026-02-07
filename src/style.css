@@ -41,15 +41,19 @@ body{
 
 /** nav bar ------------- */
 
+nav{
+    background-color: #14120B;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
 nav div.navbar{
-    padding: 15px 30px;
+    padding: 15px 25px;
     width: 100%;
     height: 52px;
     display: flex;
     justify-content: space-between;
-    position: sticky;
-    top: 0px;
-
 }
 
 nav div.links{
@@ -108,21 +112,29 @@ main button{
     border-radius: 30px;
 }
 
+main span{
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
 main div.image-bar{
+    width: 100%;
+    height: 680px;
     margin-top: 50px;
     position: relative;
     z-index: -1;
 }
 
 main img.back{
-    width: 1285px;
+    width: 100%;
     height: 680px;
     border-radius: 4px;
 }
 
 
 main img.inner{
-    width: 1040px;;
+    width: 85%;;
     position: absolute;
     top: 35px;
     left: 120px;
@@ -146,16 +158,18 @@ section div p.brand-heading{
 }
 
 section div.brand-cards{
-    padding: 0px 30px;
+    width: 100%;
+    height: 100px;
+    padding: 0px 25px;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 121px);
     gap: 10px;
 }
 
 section div.child{
-    padding: 27px;
+    padding: 25px;
     background-color: #1B1913;
-    width: 154px;
+    width: 100%;
     height: 100px;
 }
 
@@ -225,4 +239,7 @@ section div#feature-2{
 section div#feature-2 div.written-part{
     padding: 25px;
 }
+
+/* 4.Testimonials-----------------*/
+
 
