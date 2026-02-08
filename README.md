@@ -33,4 +33,4 @@
 ---
 
 ## Screenshots
-![Hero Section](/screenshots/1.png)
+![Hero Section](/screenshots/new.png)
