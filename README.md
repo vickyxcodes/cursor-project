@@ -6,7 +6,11 @@
 - Hero section  
 - Trusted by / logos section  
 - Feature sections  
-- Testimonial section  
+- Testimonial section
+- Additional Features section
+- Changelogs
+- Join us card
+- Recent higlights and footer
 
 ---
 
@@ -29,6 +33,4 @@
 ---
 
 ## Screenshots
-
-### Nav Bar, Hero Section, Trusted By Section, Features Section
 ![Hero Section](screenshots/1.png)
